@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: vibrations;
-    src: url(/static/fonts/goodvibrationspro.otf) format("opentype");
+    src: url(../fonts/goodvibrationspro.otf) format("opentype");
 }
 
 /* VARIABLES */
