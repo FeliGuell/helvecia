@@ -186,6 +186,7 @@ h1.headline {
     
     .row {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
     }
     .row > div {

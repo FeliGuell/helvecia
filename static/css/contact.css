@@ -1,0 +1,98 @@
+.contact-form {
+    width: 40rem;
+    height: 50rem;
+    background: var(--gray-color);
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem 3rem;
+    max-width: calc(100vw -2rem);
+    margin: 5rem 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    position: relative;
+    text-align: start;
+}
+
+.form-title {
+    text-transform: uppercase;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    color: var(--dark-bg);
+    border-bottom: 3px solid var(--dark-bg);
+}
+
+.form-input {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: var(--main-font);
+    transition: all .3s;
+    border-bottom: 2px solid var(--dark-bg);
+    opacity: 0.5;
+}
+
+.form-input:focus {
+    border-bottom: 2px solid var(--secondary-font-color)
+}
+
+.form-label:before {
+    content: attr(type);
+    display: block;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    margin: 4rem 0 0;
+    font-size: 1.5rem;
+    color: var(--dark-bg);
+}
+
+.form-button {
+    float: right;
+    padding: 1rem 4rem;
+    margin-top: 4rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    border: 2px solid var(--dark-bg);
+    background: 0;
+    color: var(--dark-bg);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all .3s;
+}
+
+.form-button:hover {
+    background: var(--secondary-font-color);
+    color: var(--white-color);
+}
+
+
+
+/* ------------------MEDIA QUERIES ---------------- */
+
+@media screen and (max-width: 900px) {
+
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10rem;
+    }
+
+    .contact-maps {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-form {
+        width: 80%;
+        height: 80%;
+    }
+
+
+}

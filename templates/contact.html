@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helvecia</title>
+
+    <!-- SCRIPTS -->
+    <script src="../js/app.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="../static/css/normalize.css">
+
+    <link rel="stylesheet" href="../static/css/global.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/contact.css">
+
+    <link rel="shortcut icon" href="../static/img/logo-marip.png">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo">Helvecia</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="catalog.html" class="nav-link">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+
+                <!-- MAPS -->
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13603.651793667826!2d-68.58437816703692!3d-31.52655077269232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681412f8ee1a169%3A0x95b5843bc629889d!2sPanader%C3%ADa%20Artesanal%20y%20Minimarket%20Dulce%20Catalina!5e0!3m2!1ses-419!2sar!4v1671059982039!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="contact-maps"></iframe>
+                </div>
+
+
+                <!-- CONTACT FORM -->
+                <form class="contact-form">
+                    <h2 class="form-title">CONTACTÁNOS</h2>
+                    <p class="form-label" type="Nombre:"><input type="text" class="form-input"
+                            placeholder="Ingrese nombre"></p>
+                    <p class="form-label" type="Email:"><input type="email" class="form-input"
+                            placeholder="Ingrese su email"></p>
+                    <p class="form-label" type="Mensaje:"><input type="text" class="form-input" placeholder="Mensaje">
+                    </p>
+                    <button class="form-button">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#header"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content-about animate-top">
+                    <h4>Acerca de Helvecia</h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam unde accusantium sit repudiandae
+                        incidunt quod eius recusandae blanditiis voluptates consectetur?</p>
+                </div>
+                <div class="footer__content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Redes sociales</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Contacto</h4>
+                        <form action="" class="newsletter-form">
+                            <div class="newsletter-form-box">
+                                <input type="text" class="newsletter-input" placeholder="Your email address...">
+                                <button class="newsletter-btn" type="submit">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
