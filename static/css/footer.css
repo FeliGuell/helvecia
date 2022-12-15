@@ -54,7 +54,6 @@ footer .asterisk {
 }
 
 .social-icons {
-    margin-bottom: 5.4rem;
     display: flex;
     justify-content: center;
 }
@@ -72,36 +71,16 @@ footer .asterisk {
     color: var(--secondary-font-color);
 }
 
-.newsletter-form {
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
+.contact-icons{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--white-color);
+    font-family: var(--body-font);
+    transition: color .5s;
 }
 
-.newsletter-input {
-    width: 100%;
-    max-width: 25rem;
-    padding: 1rem;
-    border: none;
-    outline: none;
-}
-
-.newsletter-btn {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    color: var(--main-font-color-dark);
-    font-size: 1.6rem;
-    padding: 1px .6rem;
-    outline: none;
-}
-
-.newsletter-form-box {
-    background-color: var(--white-color);
-    border-radius: .4rem;
-    display: flex;
-    overflow-x: hidden;
+.icons-detail{
+    margin-bottom: 1rem;
 }
 
 
@@ -124,11 +103,9 @@ footer .asterisk {
         justify-content: space-between;
     }
 
-    .social-media,
-    .newsletter-form {
+    .social-media {
         width: 100%;
-        max-width: 27.3rem;
-        margin: 0 1rem;
+        max-width: 20rem;
     }
 
     .social-icons i {
