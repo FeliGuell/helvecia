@@ -68,6 +68,7 @@
 .form-button:hover {
     background: var(--secondary-font-color);
     color: var(--white-color);
+    border: 2px solid var(--gray-color);
 }
 
 

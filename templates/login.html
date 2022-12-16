@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+
+    <!-- SRIPTS -->
+    <script src="../js/app.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="../static/css/normalize.css">
+    <link rel="stylesheet" href="../static/css/global.css">
+    <link rel="stylesheet" href="../static/css/login.css">
+
+
+    <link rel="shortcut icon" href="../static/img/logo-marip.png">
+
+
+</head>
+
+<body class="login-body">
+
+    <div class="login-container">
+        <h2 class="login-title">Iniciar Sesión</h2>
+        <form class="login-form">
+            <div>
+                <input class="login-input" type="email" id="email" name="email" placeholder="E-mail" required>
+                <input class="login-input" type="password" id="password" name="password" placeholder="Contraseña" required>
+            </div>
+
+            <input class="login-submit" type="submit" id="login" value="Login">
+        </form>
+        <div class="login-create">
+            <p>No está registrado? <a class="create-link" href="#">Crear Cuenta</a>
+            <p>
+        </div>
+    </div>
+
+</body>
+
+</html>

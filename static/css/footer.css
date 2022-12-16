@@ -1,7 +1,7 @@
 footer {
     background-color: var(--dark-bg);
     color: var(--white-color);
-    padding: 7rem 0 5rem;
+    padding: 4rem 0 2rem;
     position: relative;
     text-align: center;
 }
@@ -36,7 +36,7 @@ footer {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -56,6 +56,7 @@ footer .asterisk {
 .social-icons {
     display: flex;
     justify-content: center;
+
 }
 
 .social-icons i {
@@ -83,6 +84,10 @@ footer .asterisk {
     margin-bottom: 1rem;
 }
 
+.social-media{
+    margin-bottom: 2rem;
+}
+
 
 /*---------------MEDIA QUERIES----------------- */
 
@@ -106,9 +111,11 @@ footer .asterisk {
     .social-media {
         width: 100%;
         max-width: 20rem;
+        margin-bottom: 2rem;
     }
 
     .social-icons i {
         opacity: 1;
     }
+
 }
